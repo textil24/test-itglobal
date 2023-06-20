@@ -1,0 +1,47 @@
+.header-button {
+    display: flex;
+    align-items: baseline;
+
+    font-family: 'Golos Text', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.header-button.next {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header-button.next.first {
+    font-weight: 500;
+}
+
+.header-button.next.second {
+    font-size: 18px;
+}
+
+.header-button.next.zero {
+    width: 0;
+    font-weight: 500;
+}
+
+.header-button__wrapper.prev.second {
+    position: relative;
+    padding-bottom: 20px;
+} 
+
+.header-button__wrapper.prev.second::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #C6D6E5;
+}
+
+.header-button.prev {
+    font-weight: 500;
+}
